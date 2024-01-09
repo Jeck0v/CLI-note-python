@@ -4,7 +4,7 @@ import sys
 def create_conn():
     conn = None
     try:
-        conn = uuid.connect(    #code by Jec0v
+        conn = uuid.connect(    #code by Jeck0v
             database="nomdeladatabase",
             user="nomutiliser",
             password="YourPassword",
