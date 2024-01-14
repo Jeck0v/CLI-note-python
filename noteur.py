@@ -1,17 +1,11 @@
 import psycopg2
-#import mariadb (ne pas utiliser)
-#import sqlite3 (ne pas utiliser)
-#import mysql.connector (pas besoin)
-#from mysql.connector import Error  (pas besoin)
-#from psycopg2 import sql (pas utile)
-#import uuid (id unique depuis la table ducoup pas besoin)
-#import datetime (la table s'en occupe)
+
 conn = (psycopg2.connect
         (database="notes",   #on se co à la database notes créer dans postgres
-        user="postgres",    #on y inscrit l'utilisateur paramètrer
+        user="postgres",    #on y inscrit l'utilisateur
         password="1",       #le password assigner à l'user
         host="localhost",   #à quoi on se co
-        port="5432"))        #le port qui correspond à postgres par defaut
+        port="5432"))       #le port qui correspond à postgres par defaut
 curs = conn.cursor()
 class Note:
     def __init__(self, content, category):  #__init__ défini l'état initial des objets de la class
