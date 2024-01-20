@@ -99,20 +99,20 @@ def delete_note_command():
         view_all_notes_command()
 
 
-content_label = tk.Label(window, text="Content:")
+content_label = tk.Label(window, text="Contenu:")
 content_label.grid(row=0, column=0, padx=10, pady=10, sticky="w")
 content_entry = tk.Entry(window, width=50)
 content_entry.grid(row=0, column=1, padx=10, pady=10, sticky="w")
 
-category_label = tk.Label(window, text="Category:")
+category_label = tk.Label(window, text="Categorie:")
 category_label.grid(row=1, column=0, padx=10, pady=10, sticky="w")
 category_entry = tk.Entry(window, width=50)
 category_entry.grid(row=1, column=1, padx=10, pady=10, sticky="w")
 
-create_button = tk.Button(window, text="Create Note", command=create_note_command)
+create_button = tk.Button(window, text="Crée une Note", command=create_note_command)
 create_button.grid(row=2, column=0, columnspan=2, padx=10, pady=10)
 
-view_all_button = tk.Button(window, text="View All Notes", command=view_all_notes_command)
+view_all_button = tk.Button(window, text="Voir toutes les notes", command=view_all_notes_command)
 view_all_button.grid(row=3, column=0, columnspan=2, padx=10, pady=10)
 
 note_id_label = tk.Label(window, text="Note ID:")
@@ -120,13 +120,13 @@ note_id_label.grid(row=4, column=0, padx=10, pady=10, sticky="w")
 note_id_entry = tk.Entry(window, width=10)
 note_id_entry.grid(row=4, column=1, padx=10, pady=10, sticky="w")
 
-view_button = tk.Button(window, text="View Note", command=view_note_command)
+view_button = tk.Button(window, text="Voir la Note", command=view_note_command)
 view_button.grid(row=5, column=0, padx=10, pady=10, sticky="w")
 
-edit_button = tk.Button(window, text="Edit Note", command=edit_note_command)
+edit_button = tk.Button(window, text="Modifier une Note", command=edit_note_command)
 edit_button.grid(row=5, column=1, padx=10, pady=10, sticky="w")
 
-delete_button = tk.Button(window, text="Delete Note", command=delete_note_command)
+delete_button = tk.Button(window, text="Supprimer une Note", command=delete_note_command)
 delete_button.grid(row=6, column=0, columnspan=2, padx=10, pady=10)
 
 note_listbox = tk.Listbox(window, width=80, height=20)
