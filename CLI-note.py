@@ -20,6 +20,7 @@ def create_conn():
 def create_table(conn):
     cursor = conn.cursor()
     create_table_query = """
+        )
     CREATE TABLE IF NOT EXISTS items (
         CREATE TABLE note (
         id SERIAL PRIMARY KEY,
@@ -89,4 +90,4 @@ def main():
 
 if __name__ == "__main__":
     main()
- #code by Jec0v
+ #code by Jeck0v
