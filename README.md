@@ -24,5 +24,7 @@ L'interface n'est qu'un supplément, elle n'a été faite que pour tester commen
 - Github: [@Jeck0v](https://github.com/Jeck0v)
         
 
+## ❤️ Support  
+Une simple étoile vers le repo de ce projet suffit à me motiver sur ce projet pendant des jours. Si le projet vous plait n'hésiter pas !
 
         
