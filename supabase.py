@@ -1,6 +1,6 @@
 import supabase
 from supabase import create_client, Client
-
+ 
 url ="(url)"
 key ="(key)"
 supabase: Client = create_client(url, key)
