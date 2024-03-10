@@ -10,7 +10,7 @@ Concevoir une todolist fonctionnel relier à une base de données, donc avec un 
 - Modifier une note
 - Supprimer une note
 ##
-L'interface n'est qu'un supplément, elle n'a été faite que pour tester comment fonctionne tkinter.
+L'interface n'est qu'un supplément, elle n'a été faite que pour tester comment fonctionne tkinter. Tkinter est assez intéressant à apprendre même s'il reste assez limité.
 ##
 ## 🛠️ Tech Stack
 - [Python](https://www.python.org/)
